@@ -31,7 +31,8 @@ def score_lr_fsiw(data, chose_model, debug=False):
     ts_click = data.ts_click.values[used_index]
     ts_cv = data.ts_cv.values[used_index]
     campaign_ids = data.cat3.values[used_index]
-    hashed_feature = load_hashed_feature()
+    # hashed_feature = load_hashed_feature()
+    hashed_feature = make_features_for_cvr_prediction(data[used_index])
     if debug:
         hashed_feature = hashed_feature[::1000]
     scrs = []
