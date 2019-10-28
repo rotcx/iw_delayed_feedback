@@ -128,4 +128,3 @@ def score_lr_fsiw(data, chose_model, debug=False):
 if __name__=='__main__':
     data = read_raw_data()
     scrs =score_lr_fsiw(data, 'fsiw', False)
-    import pdb; pdb.set_trace()
