@@ -3,13 +3,16 @@
 ## Important scripts
 
 - train_model.py
+
 Use to learn a selected model and get a average score.
 It includes the implementation of the estimation for FSIW.
 
 - setting.json
+
 In this json, the hyperparameters are written.
 
 - predicted_model/dfm.pyc
+
 The implementation code for DFM written in Cython
 
 ## Requirement
