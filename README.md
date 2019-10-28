@@ -25,6 +25,7 @@ The implementation code for DFM written in Cython
 - sklearn 0.20.2
 - Cython 0.28.2
 - scipy 1.2.0
+- lightGBM 2.2.2
 
 ## Setup
 - make required directories
